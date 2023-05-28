@@ -1,0 +1,11 @@
+name: Resource Release
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+jobs:
+  resource-release:
+    uses: playlolly/workflows/.github/workflows/resource-release.yml@v1
+    secrets: inherit

@@ -1,0 +1,7 @@
+{
+  "name": "Resource Release",
+  "description": "Starter workflow for Release of Playlolly resources.",
+  "iconName": "playlolly-icon",
+  "categories": ["deployment"],
+  "filePatterns": ["fxmanifest.lua"]
+}

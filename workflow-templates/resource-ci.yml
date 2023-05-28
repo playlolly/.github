@@ -1,0 +1,10 @@
+name: Resource CI
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  resource-ci:
+    uses: playlolly/workflows/.github/workflows/resource-ci.yml@v1

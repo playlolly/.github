@@ -1,0 +1,7 @@
+{
+  "name": "Resource CI",
+  "description": "Starter workflow for CI of Playlolly resources.",
+  "iconName": "playlolly-icon",
+  "categories": ["continuous-integration"],
+  "filePatterns": ["fxmanifest.lua"]
+}
